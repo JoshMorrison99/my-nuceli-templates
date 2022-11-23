@@ -11,3 +11,6 @@ Due to incorrect configuration, Enovy proxy discloses sensitive information abou
 - https://www.acunetix.com/vulnerabilities/web/envoy-metadata-disclosure/
 - https://stackoverflow.com/questions/68829411/turn-off-or-remove-x-envoy-peer-metadata
 - https://medium.com/pentesternepal/interesting-stored-xss-via-meta-data-eb8fe1de8b33
+
+## CVE-2020-14815
+XSS in Oracle Business Intelligence 

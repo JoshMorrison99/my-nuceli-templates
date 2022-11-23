@@ -13,4 +13,7 @@ Due to incorrect configuration, Enovy proxy discloses sensitive information abou
 - https://medium.com/pentesternepal/interesting-stored-xss-via-meta-data-eb8fe1de8b33
 
 ## CVE-2020-14815
-XSS in Oracle Business Intelligence 
+XSS in Oracle Business Intelligence. This template is credited to `pikpikcu`. It has false positives, but still worth a try.
+- https://twitter.com/HackerOn2Wheels/status/1326927875279380480
+- https://github.com/projectdiscovery/nuclei-templates/commit/c7aa1e5b1202e95c803d83d044fbbe46449565c9
+- https://github.com/projectdiscovery/nuclei-templates/issues/1024

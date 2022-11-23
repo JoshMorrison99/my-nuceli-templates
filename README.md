@@ -17,3 +17,8 @@ XSS in Oracle Business Intelligence. This template is credited to `pikpikcu`. It
 - https://twitter.com/HackerOn2Wheels/status/1326927875279380480
 - https://github.com/projectdiscovery/nuclei-templates/commit/c7aa1e5b1202e95c803d83d044fbbe46449565c9
 - https://github.com/projectdiscovery/nuclei-templates/issues/1024
+
+## CVE-2021-22881
+The Host Authorization middleware in Action Pack before 6.1.2.1, 6.0.3.5 suffers from an open redirect vulnerability. Specially crafted `Host` headers in combination with certain "allowed host" formats can cause the Host Authorization middleware in Action Pack to redirect users to a malicious website. Impacted applications will have allowed hosts with a leading dot. When an allowed host contains a leading dot, a specially crafted `Host` header can be used to redirect to a malicious website.
+- https://hackerone.com/reports/1374512
+- https://nvd.nist.gov/vuln/detail/CVE-2021-22881

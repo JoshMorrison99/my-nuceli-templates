@@ -22,3 +22,7 @@ XSS in Oracle Business Intelligence. This template is credited to `pikpikcu`. It
 The Host Authorization middleware in Action Pack before 6.1.2.1, 6.0.3.5 suffers from an open redirect vulnerability. Specially crafted `Host` headers in combination with certain "allowed host" formats can cause the Host Authorization middleware in Action Pack to redirect users to a malicious website. Impacted applications will have allowed hosts with a leading dot. When an allowed host contains a leading dot, a specially crafted `Host` header can be used to redirect to a malicious website.
 - https://hackerone.com/reports/1374512
 - https://nvd.nist.gov/vuln/detail/CVE-2021-22881
+
+## CVE-2021-26722
+All credit goes to `pikpikcu`. There was an error when compiling `pikpikcu's` previous script `line 10: field issues not found in type model.Info`. I just removed the `issues` field. LinkedIn Oncall through 1.4.0 allows reflected XSS via /query because of mishandling of the "No results found for" message in the search bar.
+- https://github.com/linkedin/oncall/issues/341

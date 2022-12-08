@@ -22,12 +22,27 @@ requests:
         Origin: {{BaseURL}}
         Referer: {{BaseURL}}/
 
+        fm_usr={{user}}&fm_pwd={{pass}}
+
+      - |
+        GET /index.php?p= HTTP/1.1
+        Host: {{Hostname}}
+
+      - |
+        POST / HTTP/1.1
+        Host: {{Hostname}}
+        Content-Type: application/x-www-form-urlencoded
+        Origin: {{BaseURL}}
+        Referer: {{BaseURL}}/
+
         fm_usr={{user}}&fm_pwd={{pass}}&token={{token}}
 
       - |
         GET /index.php?p= HTTP/1.1
         Host: {{Hostname}}
 
+
+    stop-at-first-match: true
     redirects: true
     cookie-reuse: true
     extractors:

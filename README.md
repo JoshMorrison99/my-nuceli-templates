@@ -26,3 +26,8 @@ The Host Authorization middleware in Action Pack before 6.1.2.1, 6.0.3.5 suffers
 ## CVE-2021-26722
 All credit goes to `pikpikcu`. There was an error when compiling `pikpikcu's` previous script `line 10: field issues not found in type model.Info`. I just removed the `issues` field. LinkedIn Oncall through 1.4.0 allows reflected XSS via /query because of mishandling of the "No results found for" message in the search bar.
 - https://github.com/linkedin/oncall/issues/341
+
+## CVE-2021-24351
+All credit goes to Maximus Decimus. Template found here: https://github.com/projectdiscovery/nuclei-templates/issues/6200
+  - https://wpscan.com/vulnerability/2ee62f85-7aea-4b7d-8b2d-5d86d9fb8016
+  - https://nvd.nist.gov/vuln/detail/CVE-2021-24351

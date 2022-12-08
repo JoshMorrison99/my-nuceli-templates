@@ -12,13 +12,25 @@ info:
 requests:
   - raw:
       - |
+        GET / HTTP/1.1
+        Host: {{Hostname}}
+        
+      - |
         POST /data HTTP/1.1
         Host: {{Hostname}}
         Content-Type: application/x-www-form-urlencoded
         Origin: {{BaseURL}}
         Referer: {{BaseURL}}/data/
         
-        username={{user}}&password={{pass}}&token=?
+        username={{user}}&password={{pass}}&token={{token}}
+        
+    extractors:
+      - type: regex
+        name: token
+        part: body
+        internal: true
+        regex:
+          - 'token" value="([a-f0-9]{64})'
         
     attack: pitchfork
     payloads:
@@ -32,11 +44,3 @@ requests:
       - type: status
         status:
           - 200
-
-      - type: word
-        condition: and
-        words:
-          - 'data":{"token"'
-          - '"code":20000'
-
-# Enhanced by mp on 2022/03/22

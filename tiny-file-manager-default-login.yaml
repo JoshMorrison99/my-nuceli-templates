@@ -69,3 +69,11 @@ requests:
       - type: word
         words:
           - 'admin'
+
+      - type: word
+        words:
+          - 'You are logged in'
+
+      - type: word
+        words:
+          - 'Tiny File Manager'

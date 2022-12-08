@@ -31,3 +31,6 @@ All credit goes to `pikpikcu`. There was an error when compiling `pikpikcu's` pr
 All credit goes to Maximus Decimus. Template found here: https://github.com/projectdiscovery/nuclei-templates/issues/6200
   - https://wpscan.com/vulnerability/2ee62f85-7aea-4b7d-8b2d-5d86d9fb8016
   - https://nvd.nist.gov/vuln/detail/CVE-2021-24351
+  
+## tiny-file-manager-default-login
+Tiny file manager has a default login of admin:admin@123. This repository has 3.4k stars on GitHub. The motivation for creating this template is this hackerone report: https://hackerone.com/reports/1747146. PR has been created: https://github.com/projectdiscovery/nuclei-templates/pull/6299

@@ -14,24 +14,30 @@ requests:
       - |
         GET / HTTP/1.1
         Host: {{Hostname}}
-        
+
       - |
-        POST /data HTTP/1.1
+        POST / HTTP/1.1
         Host: {{Hostname}}
         Content-Type: application/x-www-form-urlencoded
         Origin: {{BaseURL}}
-        Referer: {{BaseURL}}/data/
-        
-        username={{user}}&password={{pass}}&token={{token}}
-        
+        Referer: {{BaseURL}}/
+
+        fm_usr={{user}}&fm_pwd={{pass}}&token={{token}}
+
+      - |
+        GET /index.php?p= HTTP/1.1
+        Host: {{Hostname}}
+
+    redirects: true
+    cookie-reuse: true
     extractors:
       - type: regex
         name: token
         part: body
         internal: true
         regex:
-          - 'token" value="([a-f0-9]{64})'
-        
+          - '([a-f0-9]{64})'
+
     attack: pitchfork
     payloads:
       user:
@@ -44,3 +50,7 @@ requests:
       - type: status
         status:
           - 200
+
+      - type: word
+        words:
+          - 'admin'

@@ -10,7 +10,7 @@ info:
 requests:
   - raw:
     - |
-      GET '{{BaseURL}}0\"XOR(if(now()=sysdate(),sleep(15),0))XOR\"Z'
+      GET {{BaseURL}}0\"XOR(if(now()=sysdate(),sleep(15),0))XOR\"Z HTTP/1.1
       Host: {{Hostname}}
 
   matchers:

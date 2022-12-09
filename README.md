@@ -36,6 +36,6 @@ All credit goes to Maximus Decimus. Template found here: https://github.com/proj
 Tiny file manager has a default login of admin:admin@123. This repository has 3.4k stars on GitHub. The motivation for creating this template is this hackerone report: https://hackerone.com/reports/1747146. PR has been created: https://github.com/projectdiscovery/nuclei-templates/pull/6299
 
 ## ThinkPHP-RCE
-No clue if this is even true, but I've seen a few tweets about it, so here is the nuclei template. 
+ThinkPHP <6.0.14 RCE - No clue if this is even true, but I've seen a few tweets about it, so here is the nuclei template. 
 - https://twitter.com/TodayCyberNews/status/1601209967872442370
 - https://twitter.com/cyberkendra/status/1601178498806472705

@@ -27,3 +27,8 @@ requests:
         negative: true
         words:
           - 'Guest user access is not allowed'
+          
+      - type: word
+        negative: true
+        words:
+          - 'ERROR'

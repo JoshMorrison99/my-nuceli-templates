@@ -44,3 +44,6 @@ ThinkPHP <6.0.14 RCE - No clue if this is even true, but I've seen a few tweets 
 An early release of PHP, the PHP 8.1.0-dev version was released with a backdoor on March 28th 2021, but the backdoor was quickly discovered and removed. If this version of PHP runs on a server, an attacker can execute arbitrary code by sending the User-Agentt header.
 - https://www.youtube.com/watch?v=j-wmhJ8u5Ws&ab_channel=JohnHammond
 
+## salesforce-misconfiguration
+This one requires more work, but this would be a good template since Salesforce is the #1 CRM. 
+- https://www.varonis.com/blog/abusing-salesforce-communities

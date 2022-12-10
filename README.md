@@ -43,3 +43,6 @@ ThinkPHP <6.0.14 RCE - No clue if this is even true, but I've seen a few tweets 
 ## PHP/8.1.0-dev
 An early release of PHP, the PHP 8.1.0-dev version was released with a backdoor on March 28th 2021, but the backdoor was quickly discovered and removed. If this version of PHP runs on a server, an attacker can execute arbitrary code by sending the User-Agentt header.
 - https://www.youtube.com/watch?v=j-wmhJ8u5Ws&ab_channel=JohnHammond
+
+## salesforce-aura.yaml
+Currently researching common misconfigurations in Salesforce CRM. Noticed that some applications use `/s/sfsite/auraAnalytics`, so I added that to the template. This is only an enhancement to better fingerprint Salesforce. This is really the best way to fingerprint Salesforce CRM as `httpx` does not detect it. Wappalyzer however does detect it.

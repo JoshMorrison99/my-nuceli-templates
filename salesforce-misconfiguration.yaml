@@ -1244,6 +1244,6 @@ requests:
         status:
           - 200
 
-      - type: dsl
-        dsl:
-          - "len(body) >= 10000"
+      - type: word
+        words:
+          - "record"

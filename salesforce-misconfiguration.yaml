@@ -1239,12 +1239,6 @@ variables:
         status:
           - 200
 
-      - type: word
-        negative: true
-        words:
-          - 'INSUFFICIENT_ACCESS'
-          
-      - type: word
-        negative: true
-        words:
-          - 'ERROR'
+      - type: dsl
+        dsl:
+          - "len(body) >= 10000"

@@ -45,5 +45,7 @@ An early release of PHP, the PHP 8.1.0-dev version was released with a backdoor 
 - https://www.youtube.com/watch?v=j-wmhJ8u5Ws&ab_channel=JohnHammond
 
 ## salesforce-misconfiguration
-This one requires more work, but this would be a good template since Salesforce is the #1 CRM. 
+Detects Salesforce misconfigured/exposed objects. Once the objects are detected, it may require more work to find vulnerabilities depending on what type of object is exposed. Here is my work on the subject: https://github.com/JoshMorrison99/Salesforce-Misconfigured-Objects/edit/main/README.md
+![image](https://user-images.githubusercontent.com/25315255/206927759-d6d0c385-f80a-47e2-9616-7fba6fad7d5b.png)
+
 - https://www.varonis.com/blog/abusing-salesforce-communities

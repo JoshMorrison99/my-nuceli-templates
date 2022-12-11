@@ -15,7 +15,7 @@ requests:
         POST /s/sfsites/aura HTTP/1.1
         Host: {{Hostname}}
         # This method returns the domain of the organization, some security settings (e.g., allowed content security policy (CSP) domains), and available objects.
-        message=%7b%22actions%22%3a%5b%7b%22id%22%3a%2258%3ba%22%2c%22descriptor%22%3a%22serviceComponent%3a%2f%2fui.force.components.controllers.hostConfig.HostConfigController%2fACTION%24getConfigData%22%2c%22callingDescriptor%22%3a%22markup%3a%2f%2fc%3aCS_LanguageSelector%22%2c%22params%22%3a%7b%7d%7d%2c%7b%22id%22%3a%2262%3ba%22%2c%22descriptor%22%3a%22serviceComponent%3a%2f%2fui.self.service.components.profileMenu.ProfileMenuController%2fACTION%24getProfileMenuResponse%22%2c%22callingDescriptor%22%3a%22markup%3a%2f%2fselfService%3aprofileMenuAPI%22%2c%22params%22%3a%7b%7d%2c%22version%22%3a%2256.0%22%7d%2c%7b%22id%22%3a%2268%3ba%22%2c%22descriptor%22%3a%22serviceComponent%3a%2f%2fui.communities.components.aura.components.forceCommunity.languagePicker.LanguagePickerController%2fACTION%24getInitData%22%2c%22callingDescriptor%22%3a%22markup%3a%2f%2fforceCommunity%3alanguageSelector43%22%2c%22params%22%3a%7b%7d%2c%22version%22%3a%2256.0%22%7d%5d%7d&aura.context=%7B%22mode%22%3A%22PROD%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%2C%22COMPONENT%40markup%3A%2F%2Finstrumentation%3Ao11yCoreCollector%22%3A%228giBLfYbOC17LwOopJh9VQ%22%7D%2C%22dn%22%3A%5B%5D%2C%22globals%22%3A%7B%7D%2C%22uad%22%3Afalse%7D&aura.pageURI=%2Fs%2Farticle%2Fvideo-on-demand%3Flanguage%3Den_US&aura.token=null
+        message=%7b%22actions%22%3a%5b%7b%22id%22%3a%221%3ba%22%2c%22descriptor%22%3a%22aura%3a%2f%2fRecordUiController%2fACTION%24getObjectInfo%22%2c%22callingDescriptor%22%3a%22UNKNOWN%22%2c%22params%22%3a%7b%22objectApiName%22%3a%22objectApiName%22%7d%7d%5d%7d&aura.context=%7B%22mode%22%3A%22PROD%22%2C%22fwuid%22%3A%22tr2UlkrAHzi37ijzEeD2UA%22%2C%22app%22%3A%22siteforce%3AcommunityApp%22%2C%22loaded%22%3A%7B%22APPLICATION%40markup%3A%2F%2Fsiteforce%3AcommunityApp%22%3A%22K0V8802f_xC9u_ipYQN2Rg%22%7D%2C%22dn%22%3A%5B%5D%2C%22globals%22%3A%7B%7D%2C%22uad%22%3Afalse%7D&aura.pageURI=%2Fs%2Fcontactsupport&aura.token=null
         
     matchers-condition: and
     matchers:
@@ -26,7 +26,7 @@ requests:
       - type: word
         negative: true
         words:
-          - 'Guest user access is not allowed'
+          - 'INSUFFICIENT_ACCESS'
           
       - type: word
         negative: true

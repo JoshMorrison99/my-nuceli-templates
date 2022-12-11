@@ -1247,3 +1247,7 @@ requests:
       - type: word
         words:
           - "record"
+          
+      - type: word
+        words:
+          - "\"state\":\"SUCCESS\""

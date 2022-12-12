@@ -59,3 +59,5 @@ Used to detect salesforce aura API. This is used as a base template in the Sales
 This can be detected with https://github.com/0ang3el/aem-hacker, but it will give false positive since it is not checking if the response is `text/html`. The vulnerability is Exposed MergeMetadataServlet and can be read more about here:
 - https://labs.withsecure.com/publications/securing-aem-with-dispatcher
 
+## x-forwarded-for
+All credit goes to `aufzayed`. x-forwarded-for is a common bypass for 403.

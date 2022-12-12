@@ -51,3 +51,8 @@ Detects Salesforce misconfigured/exposed objects. Once the objects are detected,
 - https://infosecwriteups.com/in-simple-words-pen-testing-salesforce-saas-application-part-2-fuzz-exploit-eefae11ba5ae
 - https://www.varonis.com/blog/abusing-salesforce-communities
 - https://pentestmag.com/making-small-things-big/
+
+## salesforce-aura
+Used to detect salesforce aura API. This is used as a base template in the Salesforce workflow to advance to other salesforce misonfigurations.
+
+

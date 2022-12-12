@@ -55,4 +55,7 @@ Detects Salesforce misconfigured/exposed objects. Once the objects are detected,
 ## salesforce-aura
 Used to detect salesforce aura API. This is used as a base template in the Salesforce workflow to advance to other salesforce misonfigurations.
 
+## exposed-merge-metadata-servlet
+This can be detected with https://github.com/0ang3el/aem-hacker, but it will give false positive since it is not checking if the response is `text/html`. The vulnerability is Exposed MergeMetadataServlet and can be read more about here:
+- https://labs.withsecure.com/publications/securing-aem-with-dispatcher
 

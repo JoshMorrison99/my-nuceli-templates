@@ -66,3 +66,8 @@ All credit goes to `aufzayed`. x-forwarded-for is a common bypass for 403.
 All credit goes to `omarhashem`. Follow him on twitter here: https://twitter.com/OmarHashem666
 - https://github.com/omarhashem123/Security-Research/tree/main/CVE-2022-38628
 - https://twitter.com/OmarHashem666/status/1602415798206795782
+
+## CVE-2022-46381
+All credit goes to `omarhashem`. Follow him on twitter here: https://twitter.com/OmarHashem666
+- https://github.com/omarhashem123/Security-Research/tree/main/CVE-2022-46381
+- https://twitter.com/OmarHashem666/status/1602415798206795782

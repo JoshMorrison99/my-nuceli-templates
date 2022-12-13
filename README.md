@@ -79,3 +79,8 @@ This template is more used for finderprinting the technology of `CVE-2022-46169`
 ## CVE-2022-2414
 XXE vulnerability - A flaw was found in pki-core. Access to external entities when parsing XML documents can lead to XML external entity (XXE) attacks. This flaw allows a remote attacker to potentially retrieve the content of arbitrary files by sending specially crafted HTTP requests.
 - https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept
+
+## CVE-2022-21661
+This vulnerability allows remote attackers to disclose sensitive information on affected installations of WordPress Core, Authentication is not required to exploit this vulnerability, The specific flaw exists within the WP_Query class, The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries, An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.
+- https://www.exploit-db.com/exploits/50663
+- https://github.com/APTIRAN/CVE-2022-21661

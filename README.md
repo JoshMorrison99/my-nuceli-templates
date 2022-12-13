@@ -75,3 +75,7 @@ All credit goes to `omarhashem123`. Follow him on twitter here: https://twitter.
 ## CVE-2022-46169
 This template is more used for finderprinting the technology of `CVE-2022-46169` rather than actually exploiting it. If this template goes get triggered, then it is a good idea to follow the steps outlined in the PoC below to try and exploit it. 
 - https://github.com/0xf4n9x/CVE-2022-46169
+
+## CVE-2022-2414
+XXE vulnerability - A flaw was found in pki-core. Access to external entities when parsing XML documents can lead to XML external entity (XXE) attacks. This flaw allows a remote attacker to potentially retrieve the content of arbitrary files by sending specially crafted HTTP requests.
+- https://github.com/amitlttwo/CVE-2022-2414-Proof-Of-Concept

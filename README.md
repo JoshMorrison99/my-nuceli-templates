@@ -71,3 +71,7 @@ All credit goes to `omarhashem123`. Follow him on twitter here: https://twitter.
 All credit goes to `omarhashem123`. Follow him on twitter here: https://twitter.com/OmarHashem666
 - https://github.com/omarhashem123/Security-Research/tree/main/CVE-2022-46381
 - https://twitter.com/OmarHashem666/status/1602415798206795782
+
+## CVE-2022-46169
+This template is more used for finderprinting the technology of `CVE-2022-46169` rather than actually exploiting it. If this template goes get triggered, then it is a good idea to follow the steps outlined in the PoC below to try and exploit it. 
+- https://github.com/0xf4n9x/CVE-2022-46169

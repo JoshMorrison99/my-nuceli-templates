@@ -15,6 +15,7 @@ requests:
     path:
       - "{{BaseURL}}/libs/dam/merge/metadata.css/test.html?path=/etc<img+src=x+onerror=alert(1);>&.ico"
 
+    matchers-condition: and
     matchers:
       - type: word
         part: header

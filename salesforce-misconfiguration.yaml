@@ -2,6 +2,7 @@ id: salesforce-misconfiguration
 
 info:
   name: Salesforce Misconfiguration
+  #Stop
   author: shelled
   severity: high
   description: Misconfigured Salesforce configuration allows unauthenticated attackers to fetch sensitive data.

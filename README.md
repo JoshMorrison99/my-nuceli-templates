@@ -84,3 +84,6 @@ XXE vulnerability - A flaw was found in pki-core. Access to external entities wh
 This vulnerability allows remote attackers to disclose sensitive information on affected installations of WordPress Core, Authentication is not required to exploit this vulnerability, The specific flaw exists within the WP_Query class, The issue results from the lack of proper validation of a user-supplied string before using it to construct SQL queries, An attacker can leverage this vulnerability to disclose stored credentials, leading to further compromise.
 - https://www.exploit-db.com/exploits/50663
 - https://github.com/APTIRAN/CVE-2022-21661
+
+## CVE-2018-11759
+This CVE is already in the main nuclei template repository, but I added onto it due to this tweet: https://twitter.com/0x_rood/status/1603473550714802181. The additional check is for `jk_status`.

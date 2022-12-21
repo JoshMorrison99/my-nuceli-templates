@@ -15,6 +15,11 @@ requests:
         GET / HTTP/1.1
         Host: {{fuzz}}
         
+      - | 
+        GET / HTTP/1.1
+        Host: {{fuzz}}.{Host}
+      
+        
     attack: batteringram
     payloads:
       fuzz:

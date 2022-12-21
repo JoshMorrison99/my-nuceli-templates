@@ -17,7 +17,7 @@ requests:
         
       - | 
         GET / HTTP/1.1
-        Host: {{fuzz}}.{Host}
+        Host: {{fuzz}}.{{Host}}
       
         
     attack: batteringram

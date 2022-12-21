@@ -87,3 +87,6 @@ This vulnerability allows remote attackers to disclose sensitive information on 
 
 ## CVE-2018-11759
 This CVE is already in the main nuclei template repository, but I added onto it due to this tweet: https://twitter.com/0x_rood/status/1603473550714802181. The additional check is for `jk_status`.
+
+## vhost-discovery
+This template can be used to find vhost. It does bruteforce of 1000 common vhosts names.

@@ -73,7 +73,7 @@ All credit goes to `omarhashem123`. Follow him on twitter here: https://twitter.
 - https://twitter.com/OmarHashem666/status/1602415798206795782
 
 ## CVE-2022-46169
-This template is more used for finderprinting the technology of `CVE-2022-46169` rather than actually exploiting it. If this template goes get triggered, then it is a good idea to follow the steps outlined in the PoC below to try and exploit it. 
+This template is more used for finderprinting the technology of `CVE-2022-46169` rather than actually exploiting it. If this template goes get triggered, then it is a good idea to follow the steps outlined in the PoC below to try and exploit it. If you do end up finding a vulnerable website, you can use this metasploit module to exploit it: https://twitter.com/WynterErik/status/1605958628938108928
 - https://github.com/0xf4n9x/CVE-2022-46169
 
 ## CVE-2022-2414

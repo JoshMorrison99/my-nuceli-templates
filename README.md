@@ -91,6 +91,9 @@ This CVE is already in the main nuclei template repository, but I added onto it 
 ## vhost-discovery
 This template can be used to find vhost. It does bruteforce of 1000 common vhosts names.
 
+## wp-duplicator-path-traversal
+PoC available here: https://github.com/Mad-robot/wordpress-exploits/blob/master/plugins/duplicator%20Path%20Traversal.md?plain=1
+
 ## CVE-2019-16891
 Liferay Portal 7.1.0 and earlier is vulnerable to remote code execution (RCE) via deserialization of JSON data. This template will produce some false positives. 
 - https://dappsec.substack.com/p/an-advisory-for-cve-2019-16891-from

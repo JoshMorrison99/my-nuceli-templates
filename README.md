@@ -98,3 +98,7 @@ PoC available here: https://github.com/Mad-robot/wordpress-exploits/blob/master/
 Liferay Portal 7.1.0 and earlier is vulnerable to remote code execution (RCE) via deserialization of JSON data. This template will produce some false positives. 
 - https://dappsec.substack.com/p/an-advisory-for-cve-2019-16891-from
 - https://twitter.com/therceman/status/1605617685106085893
+
+## microweber-xss
+- https://huntr.dev/bounties/1fb2ce08-7016-45fa-b402-ec08d700e4df/
+- https://github.com/microweber/microweber

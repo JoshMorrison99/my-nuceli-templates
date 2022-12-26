@@ -102,3 +102,7 @@ Liferay Portal 7.1.0 and earlier is vulnerable to remote code execution (RCE) vi
 ## microweber-xss
 - https://huntr.dev/bounties/1fb2ce08-7016-45fa-b402-ec08d700e4df/
 - https://github.com/microweber/microweber
+
+## kanboard-default-login
+Kanboard is project management software that focuses on the Kanban methodology. It has around 7k stars on GitHub. Default Login is admin:admin. Created a pull request to main repository.
+- https://github.com/projectdiscovery/nuclei-templates/pull/6434

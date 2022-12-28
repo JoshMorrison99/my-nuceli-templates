@@ -20,6 +20,6 @@ requests:
           
       - type: word
         words:
-          - keys
-          - alg
-          - kid
+          - '"keys":'
+          - '"alg":'
+          - '"kid":'

@@ -106,3 +106,6 @@ Liferay Portal 7.1.0 and earlier is vulnerable to remote code execution (RCE) vi
 ## kanboard-default-login
 Kanboard is project management software that focuses on the Kanban methodology. It has around 7k stars on GitHub. Default Login is admin:admin. Created a pull request to main repository.
 - https://github.com/projectdiscovery/nuclei-templates/pull/6435
+
+## nexus-detect
+Through some google dorking I found that a lot of companies host their nexus repositories at the /nexus endpoint. I added the line to check that endpoint.

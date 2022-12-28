@@ -109,3 +109,6 @@ Kanboard is project management software that focuses on the Kanban methodology. 
 
 ## nexus-detect
 Through some google dorking I found that a lot of companies host their nexus repositories at the /nexus endpoint. I added the line to check that endpoint.
+
+## nexus-oss-detect
+This template is used to check for older versions of nexus repository manager.

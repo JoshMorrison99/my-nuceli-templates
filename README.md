@@ -112,3 +112,6 @@ Through some google dorking I found that a lot of companies host their nexus rep
 
 ## nexus-oss-detect
 This template is used to check for older versions of nexus repository manager.
+
+## node-env
+This template looks for `NODE_ENV` keyword. In NodeJS, NODE_ENV commonly holds sensitive information.

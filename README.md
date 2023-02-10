@@ -118,3 +118,6 @@ This template looks for `NODE_ENV` keyword. In NodeJS, NODE_ENV commonly holds s
 
 ## django-debug-exposed-404
 This template look for Django Debug mode set to True by checking for default 404 pages
+
+## django-debug-exposure-csrf
+This template look for Django Debug mode set to True by checking for default CSRF pages

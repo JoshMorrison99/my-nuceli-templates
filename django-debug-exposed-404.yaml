@@ -2,7 +2,7 @@ id: django-debug-exposure
 
 info:
   name: Django Debug Exposure
-  author: geeknik,shelled
+  author: shelled
   severity: medium
   tags: django,exposure
 

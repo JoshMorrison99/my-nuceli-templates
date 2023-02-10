@@ -20,5 +20,6 @@ requests:
       - type: word
         part: body
         words:
-          - 'seeing the help section of this page because you have <code>DEBUG = True</code>'
+          - 'seeing the help section of this page because you have <code>DEBUG ='
+          - 'True</code>'
         condition: and

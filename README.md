@@ -115,3 +115,6 @@ This template is used to check for older versions of nexus repository manager.
 
 ## node-env
 This template looks for `NODE_ENV` keyword. In NodeJS, NODE_ENV commonly holds sensitive information.
+
+## django-debug-exposed-404
+This template look for Django Debug mode set to True by checking for default 404 pages

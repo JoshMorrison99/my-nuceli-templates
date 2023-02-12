@@ -121,3 +121,6 @@ This template look for Django Debug mode set to True by checking for default 404
 
 ## django-debug-exposure-csrf
 This template look for Django Debug mode set to True by checking for default CSRF pages
+
+## rails-routes-exposed
+This template looks for the Ruby on Rails routes endpoint

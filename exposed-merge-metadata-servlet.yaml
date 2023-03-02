@@ -3,7 +3,7 @@ id: exposed-merge-metadata-servlet
 info:
   name: Exposed MergeMetadataServlet
   author: shelled
-  severity: low
+  severity: medium
   description: Exposed MergeMetadataServlet in the AEM CMS might be vulnerable to XSS
   reference:
     - https://github.com/0ang3el/aem-hacker
